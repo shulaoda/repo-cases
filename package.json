@@ -1,0 +1,22 @@
+{
+  "name": "either-issue",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "either-issue",
+    "triples": {}
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "test": "node ./run.js",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform"
+  },
+  "packageManager": "pnpm@9.6.0"
+}
