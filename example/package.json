@@ -1,0 +1,9 @@
+{
+  "name": "example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}

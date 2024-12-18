@@ -1,22 +1,11 @@
 {
-  "name": "either-issue",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "napi": {
-    "name": "either-issue",
-    "triples": {}
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@napi-rs/cli": "^2.18.4"
-  },
-  "engines": {
-    "node": ">= 10"
-  },
+  "name": "test",
+  "private": true,
   "scripts": {
-    "test": "node ./run.js",
-    "build": "napi build --platform --release",
-    "build:debug": "napi build --platform"
+    "lint": "oxlint -c .oxlintrc.json --deny-warnings"
   },
-  "packageManager": "pnpm@9.6.0"
+  "devDependencies": {
+    "oxlint": "0.15.3"
+  },
+  "packageManager": "pnpm@9.15.0"
 }
